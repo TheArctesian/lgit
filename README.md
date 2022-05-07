@@ -1,13 +1,12 @@
-# { PROJECT NAME } 
+# Lgit
 
 ## Overview 
-
+A tool for lazy devs, I made this as just a bash script and moved it to bin. The og sh file is the lgit.sh file in the root dir of the project, it is also in my dotfiles. This is just a rust impletion of it so I could put it on the aur cuz I want to share the software. 
 
 
 ## Info
 
 ```
-email (personal)  : stephen.d.okita@gmail.com
 email (business)  : me@danielokita.com
 twitter           : @theArctesian
 discord           : 0xArctesian#8968
