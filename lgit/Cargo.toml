@@ -2,7 +2,13 @@
 name = "lgit"
 version = "0.1.0"
 edition = "2021"
-
+author = "Arctesian"
+license = "GPL-3.0"
+description = "A tool for ppl who are tool lazy to write the three lines of code to push your code.
+requires = "git"
+repository = "https://github.com/TheArctesian/lgit"
+keywords = ["git", "push" , "lazy"]
+category = ["git", "command-line-utilities"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
