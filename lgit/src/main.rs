@@ -7,11 +7,8 @@ struct Message {
 }
 fn main() {
     let args = Message::parse();
-    let gitAdd = Command::new("git").arg("add").arg(".").output().unwrap();
-    let gitCommit = Command::new("git").arg("commit").arg("-m").arg(args.message).output().unwrap();
-    let gitPush = Command::new("git").arg("push").output().unwrap();
-    println!("{:?}", gitAdd);
-    println!("{:?}", gitCommit);
-    println!("{:?}", gitPush);
-
+    let git_add = Command::new("git").arg("add").arg(".").output().unwrap();
+    let git_commit = Command::new("git").arg("commit").arg("-m").arg(args.message).output().unwrap();
+    let git_push = Command::new("git").arg("push").output().unwrap();
+    println!("{:?}", git_push);
 }
